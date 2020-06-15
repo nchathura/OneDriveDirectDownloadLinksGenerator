@@ -2,9 +2,8 @@
 You can use this simple application to generate direct links to files  that are saved in your Microsoft OneDrive storage
 
 Screenshot
-<p align="center">
-  <img src="https://imgur.com/AVyqdCY">
-</p>
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/zKaBbqJ"><a href="//imgur.com/a/zKaBbqJ"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 This is for educational purposes only. You can test it and try it :)
 
