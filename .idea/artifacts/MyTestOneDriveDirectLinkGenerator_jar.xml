@@ -2,7 +2,7 @@
   <artifact type="jar" name="MyTestOneDriveDirectLinkGenerator:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/MyTestOneDriveDirectLinkGenerator_jar</output-path>
     <root id="archive" name="MyTestOneDriveDirectLinkGenerator.jar">
-      <element id="module-output" name="MyTestOneDriveDirectLinkGenerator" />
+      <element id="module-output" name="OneDriveDirectLinkGenerator" />
     </root>
   </artifact>
 </component>
