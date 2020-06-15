@@ -1,0 +1,4 @@
+.bgImg{
+    -fx-background-image: url('/assets/img.gif');
+    -fx-background-size: 100% 100%;
+}
