@@ -24,6 +24,7 @@ public class MainDashController {
 
         if (txtOneDrive.getText().contains("sharepoint.com") && txtOneDrive.getText().contains("?")){
 
+            //URL Pattern One
             String[] split = txtOneDrive.getText().split("\\?(.*)"); //Split URL to cut off the unwanted part
             String directLink = split[0]+"?download=1"; //Download to true
             txtDirect.setText(directLink); //Generated Link
@@ -33,6 +34,7 @@ public class MainDashController {
             btnCopy.setText("Copy Link!");
 
         }else if (txtOneDrive.getText().contains("sharepoint.com")){
+            //URL Pattern Two
             String link = txtOneDrive.getText();
             String directLink2 = link + "?download=1";
             txtDirect.setText(directLink2);
