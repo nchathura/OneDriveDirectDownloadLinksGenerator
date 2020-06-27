@@ -21,7 +21,6 @@ public class MainDashController {
     public AnchorPane R;
 
     public void btnGenerate_OnAction(ActionEvent actionEvent) {
-        System.out.println("click");
 
         if (txtOneDrive.getText().contains("sharepoint.com") && txtOneDrive.getText().contains("?")){
 
@@ -32,7 +31,18 @@ public class MainDashController {
             txtOneDrive.clear();
             txtDirect.requestFocus();
             btnCopy.setText("Copy Link!");
-        }else {
+
+        }else if (txtOneDrive.getText().contains("sharepoint.com")){
+            String link = txtOneDrive.getText();
+            String directLink2 = link + "?download=1";
+            txtDirect.setText(directLink2);
+
+            txtOneDrive.clear();
+            txtDirect.requestFocus();
+            btnCopy.setText("Copy Link");
+        }
+
+        else {
             new Alert(Alert.AlertType.ERROR, "Invalid URL! Try again " +
 
                     "\nHint! Check the Example OneDrive URL below:\n" +
